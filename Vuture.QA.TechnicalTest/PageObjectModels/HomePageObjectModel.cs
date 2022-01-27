@@ -13,12 +13,11 @@ using Vuture.QA.TechnicalTest.TestBaseStructure;
 
 namespace Vuture.QA.TechnicalTest.PageObjectModels
 {
-    public class EmailCampaignObjectModel
+    public class HomePageObjectModel
     {
-        public EmailCampaignObjectModel()
+        public HomePageObjectModel()
         {
             PageFactory.InitElements(DriverFactory.Driver, this);
         }
-
     }
 }
