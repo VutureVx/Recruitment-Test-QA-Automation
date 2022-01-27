@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
 namespace Vuture.QA.TechnicalTest.Driver
@@ -21,7 +16,7 @@ namespace Vuture.QA.TechnicalTest.Driver
             //Driver.Manage().Window.Maximize();
         }
 
-        public  static void GoToUrl(string url)
+        public static void GoToUrl(string url)
         {
             Driver.Navigate().GoToUrl(url);
         }
