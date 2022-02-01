@@ -33,7 +33,7 @@ Vuture integrates with leading CRMs to automatically extract and update data. Ou
 * Fork or clone the repository, we would love to see your commit history
 * Use a code editor of your choice compatible with .NET Framework, we recommend Visual Studio Community 2022
 * This test uses .NET Framework v4.6.1, make sure you have the necessary SDK installed
-* Install SpecFlow extension. If you are using Visual Studio, this can be done via Extensions > Manage Extensions > Search for SpecFlow. Once installed you will need to restart Visual Studio.
+* If you need to regenerate Feature files then you will need to install SpecFlow extension. If you are using Visual Studio, this can be done via Extensions > Manage Extensions > Search for SpecFlow. Once installed you will need to restart Visual Studio.
 
 ### Tasks
 
