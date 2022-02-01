@@ -17,7 +17,7 @@ namespace Vuture.QA.TechnicalTest.TestBaseStructure
         [AfterFeature]
         public static void EndOfTest()
         {
-            DriverFactory.Driver.Quit();
+            DriverFactory.Quit();
         }
     }
 }

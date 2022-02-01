@@ -17,7 +17,7 @@ namespace Vuture.QA.TechnicalTest.PageObjectModels
     {
         public EmailCampaignObjectModel()
         {
-            PageFactory.InitElements(DriverFactory.Driver, this);
+            PageFactory.InitElements(DriverFactory.WebDriver, this);
         }
 
     }
