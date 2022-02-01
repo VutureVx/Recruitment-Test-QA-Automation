@@ -11,7 +11,7 @@ namespace Vuture.QA.TechnicalTest.Driver
 
         public static void InitBrowser()
         {
-            if(WebDriver != null)
+            if (WebDriver != null)
             {
                 Console.WriteLine($"ERROR: Executing InitBrowser - WebDriver has already been initialised");
                 return;
@@ -24,7 +24,7 @@ namespace Vuture.QA.TechnicalTest.Driver
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.AddArguments("start-maximized");
             WebDriver = new ChromeDriver(chromeOptions);
-                TurnOnWait();
+            TurnOnWait();
         }
 
         public static void GoToUrl(string url)
