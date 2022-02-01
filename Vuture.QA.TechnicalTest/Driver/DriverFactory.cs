@@ -33,6 +33,11 @@ namespace Vuture.QA.TechnicalTest.Driver
                 Console.WriteLine($"ERROR: Executing GoToUrl - WebDriver is not initialised");
                 return;
             }
+            else if(string.IsNullOrEmpty(url))
+            {
+                Console.WriteLine($"ERROR: Executing GoToUrl - URL Parameter IsNullOrEmpty - value: {url}");
+                return;
+            }
             WebDriver.Navigate().GoToUrl(url);
         }
 
