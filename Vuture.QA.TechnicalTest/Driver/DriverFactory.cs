@@ -16,7 +16,6 @@ namespace Vuture.QA.TechnicalTest.Driver
                 Console.WriteLine($"ERROR: Executing InitBrowser - WebDriver has already been initialised");
                 return;
             }
-
             foreach (var process in Process.GetProcessesByName("chromedriver"))
             {
                 process.Kill();
