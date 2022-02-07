@@ -33,36 +33,39 @@ Vuture integrates with leading CRMs to automatically extract and update data. Ou
 * Fork or clone the repository, we would love to see your commit history
 * Use a code editor of your choice compatible with .NET Framework, we recommend Visual Studio Community 2022
 * This test uses .NET Framework v4.6.1, make sure you have the necessary SDK installed
-* Install SpecFlow extension. If you are using Visual Studio, this can be done via Extensions > Manage Extensions > Search for SpecFlow. Once installed you will need to restart Visual Studio.
+* If you need to regenerate Feature files then you will need to install SpecFlow extension. If you are using Visual Studio, this can be done via Extensions > Manage Extensions > Search for SpecFlow. Once installed you will need to restart Visual Studio.
 
 ### Tasks
 
 #### Task One - Login
 
-* Navigate to the URL: "https://demo.vuturevx.com/mvc/login/"
+* Navigate to the URL: "https://demo.vuturevx.com/mvc/login"
 * Log in using the details we provide you during the interview
 * Assert against an element on the home page to confirm that you have been logged in
-* Assert against the URL to ensure you have arrived at "https://demo.vuturevx.com/home/home.aspx"
+* Assert against the URL to ensure you have arrived at "https://demo.vuturevx.com/mvc/home/"
 
 #### Task Two - Create Email Campaign
 
-* Click on icon or the hyperlink which allows you to create a new email campaign
+* Click on the "Create Email Campaign" Button on the right hand side of the page
 * Name the campaign on the left frame, you can pick a name of your choice
-* Click on the create button, for the first email template in the list.
-* Assert and check if the correct name of the container and campaign is displayed at the top of the window.
+* Click on the create button, for the first email template in the list
+* Assert and check if the correct name of the container and campaign is displayed at the top of the window
 
 #### Task Three - Compose Email
 
-* On the right-hand frame of the window name the email, again pick a name of your choice
-* Click on invitation template - This should create a new email on the left-hand frame
-* On the left-hand frame, use the site actions underneath your newly created email to publish the email. To do this, click on 'publish email' and the 'publish now'
-* Assert on the page you have just published to ensure that the status of the email is 'Live'
+* You are now on the Compose Email screen
+* On the right-hand frame, enter a name for your email
+* Click on **invitation** template - _This should create a new email on the left-hand frame_
+* On the left-hand frame, use the site actions underneath your newly created email to **publish** the email. To do this, click on 'publish email' and then 'publish now'
+
+* Assert on the page you have just published to ensure that the status of the email is '**Live**'
 
 #### Task Four - Logout
 
-* Click on the logout button on the top on the browser window.
-* Assert that URL is "https://demo.vuturevx.com/login/login.aspx"
-* Assert that the login boxes for the username and password are visible.
+* In the top right of the screen, click the Logout button
+* This should take you back to the login screen
+* Assert that the login boxes for the username and password are visible
+* Assert that URL is "https://demo.vuturevx.com/mvc/login/index"
 
 ## Think you are finished?
 

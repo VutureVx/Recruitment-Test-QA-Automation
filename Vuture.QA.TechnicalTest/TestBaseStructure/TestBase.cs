@@ -11,7 +11,7 @@ namespace Vuture.QA.TechnicalTest.TestBaseStructure
         [BeforeFeature]
         public static void StartOfTest()
         {
-
+            DriverFactory.InitBrowser();
         }
 
         [AfterFeature]

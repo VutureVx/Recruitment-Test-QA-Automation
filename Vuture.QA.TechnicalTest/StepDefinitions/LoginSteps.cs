@@ -19,8 +19,8 @@ namespace Vuture.QA.TechnicalTest.StepDefinitions
 
         }
 
-        [Then(@"I will be signed it")]
-        public void ThenIWillBeSignedIt()
+        [Then(@"I will be signed in")]
+        public void ThenIWillBeSignedIn()
         {
 
         }
