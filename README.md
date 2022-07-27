@@ -76,5 +76,5 @@ Vuture integrates with leading CRMs to automatically extract and update data. Ou
 ## Let us know you are finished (If you are completing this as a take home test)
 
 * You will need to share the repository with us, please share with us a link to your repository
-* We will review your code and provide feedback via TalentPoint
-* If you have any questions throughout, please feel free to get in contact with us [kalina.trifunova@vutu.re](mailto:kalina.trifunova@vutu.re) [charly.webster@vutu.re](mailto:charly.webster@vutu.re)
+* We will review your code and provide feedback
+* If you have any questions throughout, please feel free to get in contact with us [laura.woods@vutu.re](mailto:laura.woods@vutu.re) [charly.webster@vutu.re](mailto:charly.webster@vutu.re)
